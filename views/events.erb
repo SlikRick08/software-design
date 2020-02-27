@@ -1,0 +1,9 @@
+<h1>
+    All Events
+</h1>
+
+<% for events_looper in @events %>
+  <p>
+    <a href="#"> <%= events_looper[:title] %></a>
+  </p>  
+<% end %>
